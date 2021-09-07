@@ -28,14 +28,14 @@ except:
     import simplejson as json
   
 nome_contador = "EXEMPLO"
-link_contador = "https://hastebin.com/osotatoqoh"    
+link_contador = "https://whos.amung.us/pingjs/"    
 
 
 ##CONFIGURAÇÕES
 ####  TITULO DO MENU  #################################################################
-title_menu = "[B][COLOR white]||||||| Mercurio Play|||||||[/COLOR][/B]"
+title_menu = "[B][COLOR red]||||||| PROJETO MERCURIO|||||||[/COLOR][/B]"
 ###  DESCRIÇÃO DO ADDON ###############################################################
-title_descricao = "DESCRIÇÃO ADDON EXEMPLO"
+title_descricao = "COPIA NÃO COMEDIA"
 
 ####  LINK DO TITULO DE MENU  #########################################################
 ## OBS: POR PADRÃO JÁ TEM UM MENU EM BRANCO PARA NÃO TER ERRO AO CLICAR ###############
@@ -48,20 +48,31 @@ url_title = ''
 #url_b64_pesquisa = ''
 #url_pesquisa = base64.b64decode(url_b64_pesquisa).decode('utf-8')
 url_pesquisa = 'http://teste.com/get.php'
-menu_pesquisar = '[COLOR blue][B]PESQUISAR...[/B][/COLOR]'
+menu_pesquisar = '[COLOR white][B]PESQUISAR...[/B][/COLOR]'
 thumb_pesquisar = 'https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-vector-search-icon-png-image_320926.jpg'
 fanart_pesquisar = ''
 #### Descrição Pesquisa
 desc_pesquisa = 'Pesquise por filme'
 ## MENU CONFIGURAÇÕES
-menu_configuracoes = "[B][COLOR blue]CONFIGURAÇÕES[/COLOR][/B]"
+menu_configuracoes = "[B][COLOR white]CONFIGURAÇÕES[/COLOR][/B]"
 thumb_icon_config = 'https://i.imgur.com/'
 desc_configuracoes = "Configurações"
 ## FAVORITOS
-menu_favoritos = '[B][COLOR yellow]|[/COLOR][COLOR blue]FAVORITOS[/COLOR][COLOR yellow]|[/COLOR][/B]'
+menu_favoritos = '[B][COLOR yellow]|[/COLOR][COLOR white]FAVORITOS[/COLOR][COLOR yellow]|[/COLOR][/B]'
 thumb_favoritos = 'https://i.imgur.com/'
 desc_favoritos = 'Adicione Itens aos Favoritos, pressionando OK do controle ou clicando o direito e selecionando Adicionar aos favoritos'
 
+#### MENU VIP ################################################################
+titulo_vip = "[B][COLOR white]EXEMPLO[/COLOR] - [COLOR gold](VIP)[/COLOR][/B]"
+thumbnail_vip = 'https://i.imgur.com/'
+fanart_vip = 'https://i.imgur.com/'
+#### DESCRIÇÃO VIP ###########################################################
+vip_descricao = 'SOLICITE SEU TESTE VIP'
+#### DIALOGO VIP - SERVIDOR DESATIVADO - CLICK ###################################
+vip_dialogo = "[B][COLOR white]CONFIGURE SEU ACESSO[/COLOR][/B]"
+##SERIVODR VIP
+url_server_vip1 = ''
+url_server_vip = ''
 
 ## DOAÇÃO
 menu_doar = 'MENU DOAR'
@@ -79,7 +90,7 @@ dialog_playlist = '[B][COLOR white]Escolha uma opção:[/COLOR][/B]'
 useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
 
 # Base - seu link principal
-url_origem = 'https://hastebin.com/raw/dariruyudi'
+url_origem = 'https://hastebin.com/raw/wuvenoxodi'
 try:
     url_principal = base64.b64decode(url_origem).decode('utf-8')
 except:
@@ -2776,7 +2787,7 @@ def info_vip():
 			
 def init_SKindex(msg):
    status_mensagem1 = addon.getSetting('mensagem1')
-   if status_mensagem1 == 'true':
+   if status_mensagem1 == 'false':
     dialog = xbmcgui.Dialog()
     link = dialog.select("[B]BEM-VINDOS AO [COLOR white]EXEMPLO[/COLOR][/B]", [
     "[B][COLOR white]EXEMPLO - [/COLOR] NOME 1 [/B]",
