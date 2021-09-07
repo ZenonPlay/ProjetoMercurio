@@ -1,6 +1,6 @@
 <addons>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ProjetoMercurio" name="ProjetoMercurio" version="1.0" provider-name="Justino"> 
+<?xml version="2.2.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ProjetoMercurio" name="ProjetoMercurio" version="2.2.0" provider-name="Justino"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -21,7 +21,7 @@
     <summary lang="en">Tenha o melhor conteudo no seu Kodi.</summary>
     <description lang="en">Addon Exemplo para ajudar na atualização de addon.</description>
      <disclaimer lang="en">Não fazemos parte da equipe do kodi, utilizamos links de terceiros, portanto não nos responsabilizamos por eles.</disclaimer>
-	 	<news>V1.0 - Criação de Addon.</news>
+	 	<news>V2.2.0 - Criação de Addon.</news>
 	<platform>all</platform>
     <assets>
 	<icon>icon.png</icon>
