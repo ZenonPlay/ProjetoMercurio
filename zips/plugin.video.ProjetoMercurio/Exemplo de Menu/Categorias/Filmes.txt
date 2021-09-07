@@ -1,0 +1,64 @@
+
+<item>
+<title>[B]TITULO DO FILME[/B]</title>
+<link>LINK FILME$nome= Dublado</link>
+<link>LINK FILME$nome= Legendado</link>
+<thumbnail>THUMBNAIL DO FILME</thumbnail>
+<fanart>FANART DO FILME</fanart>
+<info>TEXTO DE SINOPSE.</info>
+<genre>GENERO</genre>
+<year>2021</year>
+</item>
+
+<item>
+<title>[B]TITULO DO FILME[/B]</title>
+<link>LINK FILME$nome= Dublado</link>
+<link>LINK FILME$nome= Legendado</link>
+<thumbnail>THUMBNAIL DO FILME</thumbnail>
+<fanart>FANART DO FILME</fanart>
+</item>
+
+<item>
+<title>[B]LIGA DA JUSTIÇA: PONTO DE IGNIÇÃO[/B]</title>
+<link>https://s-delivery36.mxdcontent.net/v/670ef9536b1d813162d6e594bc0feadd.mp4?s=JY4xSo6bU63pZDxEeSSizQ&e=1631058065&_t=1631041155 $nome= Dublado</link>
+<link>LINK FILME$nome= Legendado</link>
+<thumbnail>https://vizer.tv/content/movies/posterPt/342/19579.webp</thumbnail>
+<fanart>FANART DO FILME</fanart>
+</item>
+
+<item>
+<title>[B]LIGA DA JUSTIÇA: GUERRA[/B]</title>
+<link>https://s-delivery11.mxdcontent.net/v/549c5ad8f2f3e510b6c3a199dc6e2f33.mp4?s=ujvVrZTLyNLOJ3-lQT9VlA&e=1631058266&_t=1631046505 $nome= Dublado</link>
+<link>LINK FILME$nome= Legendado</link>
+<thumbnail>https://vizer.tv/content/movies/posterPt/342/16124.webp</thumbnail>
+<fanart>FANART DO FILME</fanart>
+</item>
+
+<item>
+<title>[B]O FILHO DO BATMAN[/B]</title>
+<link>https://s-delivery9.mxdcontent.net/v/b9169b2de209f625ded5031e7c12f8a9.mp4?s=QpxiYX-8wBKnDUyhgYMhLQ&e=1631058384&_t=1631039307 $nome= Dublado</link>
+<link>LINK FILME$nome= Legendado</link>
+<thumbnail>https://vizer.tv/content/movies/posterPt/342/25414.webp</thumbnail>
+<fanart>FANART DO FILME</fanart>
+</item>
+
+<item>
+<title>[B]LIGA DA JUSTIÇA: O TRONO DE ATLANTIS[/B]</title>
+<link>https://s-delivery21.mxdcontent.net/v/fe71e3678f693ae2c8ef58420d17a90a.mp4?s=RQGubc4E2zTekUrtHD0LgQ&e=1631058485&_t=1631040801 $nome= Dublado</link>
+<link>LINK FILME$nome= Legendado</link>
+<thumbnail>https://vizer.tv/content/movies/posterPt/342/21136.webp</thumbnail>
+<fanart>FANART DO FILME</fanart>
+</item>
+
+
+______________________________________________________________________________________________________
+$nome= Texto --> é para por multiplos links no mesmo filme
+______________________________________________________________________________________________________
+Para arquivos torrent funciona assim no <link>
+
+<link>plugin://plugin.video.elementum/play?uri=URL MAGNET DO TORRENT</link>
+
+Exemplo:
+
+
+<link>plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:9d4555966805adfff7ac527823a3a08471aa25358f5</link>
