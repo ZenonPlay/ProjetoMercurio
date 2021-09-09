@@ -90,7 +90,7 @@ dialog_playlist = '[B][COLOR blue]Escolha uma opção:[/COLOR][/B]'
 useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
 
 # Base - seu link principal
-url_origem = 'https://hastebin.com/raw/bebejucijo'
+url_origem = 'https://bitbin.it/amtVbFia/raw/'
 try:
     url_principal = base64.b64decode(url_origem).decode('utf-8')
 except:
