@@ -84,13 +84,13 @@ url_desc_doar = 'DESC DOAR'
 ## MULTLINK
 ## nome para $nome, padrão: lsname para $lsname
 playlist_command = 'nome'
-dialog_playlist = '[B][COLOR white]Escolha uma opção:[/COLOR][/B]'
+dialog_playlist = '[B][COLOR blue]Escolha uma opção:[/COLOR][/B]'
 
 # user agent - Padrão: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
 useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
 
 # Base - seu link principal
-url_origem = 'https://hastebin.com/raw/nitahaqana'
+url_origem = 'https://hastebin.com/raw/cusatefoqo'
 try:
     url_principal = base64.b64decode(url_origem).decode('utf-8')
 except:
@@ -2640,12 +2640,12 @@ def check_addon():
         exists = os.path.isfile(check_file)
         check_addon = addon.getSetting('check_addon')
         #check_file = 'check.txt'
-        if exists == True:
+        if exists == False:
             #print('existe')
             fcheck = open(check_file,'r+')
             elementum = addon.getSetting('elementum')
             youtube = addon.getSetting('youtube')
-            if fcheck and fcheck.read() == '1' and check_addon == 'true':
+            if fcheck and fcheck.read() == '1' and check_addon == 'False':
                 #print('valor 1')
                 fcheck.close()
                 link = getRequest2('https://raw.githubusercontent.com/zoreu/zoreu.github.io/master/kodi/verificar_addons_matrix.txt','').replace('\n','').replace('\r','')
@@ -2666,7 +2666,7 @@ def check_addon():
                                 xbmcgui.Dialog().ok()
                         else:
                             pass
-        elif check_addon == 'true':
+        elif check_addon == 'False':
             #print('nao existe')
             fcheck = open(check_file,'w')
             fcheck.write('1')
@@ -2787,7 +2787,7 @@ def info_vip():
 			
 def init_SKindex(msg):
    status_mensagem1 = addon.getSetting('mensagem1')
-   if status_mensagem1 == 'false':
+   if status_mensagem1 == 'False':
     dialog = xbmcgui.Dialog()
     link = dialog.select("[B]BEM-VINDOS AO [COLOR white]EXEMPLO[/COLOR][/B]", [
     "[B][COLOR white]EXEMPLO - [/COLOR] NOME 1 [/B]",
