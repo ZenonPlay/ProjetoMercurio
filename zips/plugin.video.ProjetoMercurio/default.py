@@ -35,7 +35,7 @@ link_contador = "https://whos.amung.us/pingjs/"
 ####  TITULO DO MENU  #################################################################
 title_menu = "[B][COLOR yellow]||||||| PROJETO MERCURIO|||||||[/COLOR][/B]"
 ###  DESCRIÇÃO DO ADDON ###############################################################
-title_descricao = "COPIA NÃO COMEDIA"
+title_descricao = "ADDON EM FASE PRE-ALFA"
 
 ####  LINK DO TITULO DE MENU  #########################################################
 ## OBS: POR PADRÃO JÁ TEM UM MENU EM BRANCO PARA NÃO TER ERRO AO CLICAR ###############
@@ -90,7 +90,7 @@ dialog_playlist = '[B][COLOR blue]Escolha uma opção:[/COLOR][/B]'
 useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
 
 # Base - seu link principal
-url_origem = 'https://bitbin.it/amtVbFia/raw/'
+url_origem = 'https://hastebin.com/raw/olinodibut'
 try:
     url_principal = base64.b64decode(url_origem).decode('utf-8')
 except:
