@@ -1,5 +1,5 @@
-<?xml version="3.7.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.ProjetoMercurio" name="ProjetoMercurio" version="3.7.0" provider-name="Justino">
+<?xml version="4..0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ProjetoMercurio" name="ProjetoMercurio" version="4.0.0" provider-name="Justino">
     <extension point="xbmc.addon.repository" name="Nome Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/ZenonPlay/ProjetoMercurio/master/zips/addons.xml</info>
