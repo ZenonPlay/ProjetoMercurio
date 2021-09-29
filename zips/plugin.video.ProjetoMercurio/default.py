@@ -90,7 +90,7 @@ dialog_playlist = '[B][COLOR blue]Escolha uma opção:[/COLOR][/B]'
 useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
 
 # Base - seu link principal
-url_origem = 'https://bitbin.it/amtVbFia/raw/'
+url_origem = 'https://bitbin.it/jgJSUhL6/raw/'
 try:
     url_principal = base64.b64decode(url_origem).decode('utf-8')
 except:
@@ -2820,7 +2820,7 @@ def init_SKindex(msg):
 
 def mensagem(msg):
    status_mensagem2 = addon.getSetting('mensagem2')
-   if status_mensagem2 == 'true':     
+   if status_mensagem2 == 'false':     
     xbmc.executebuiltin("Notification({0}, {1}, 10000, {2})".format(__addonname__,getRequest2('https://pastebin.com/raw/', ''), __icon__))     
 
 
