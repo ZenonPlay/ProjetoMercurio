@@ -1,0 +1,25 @@
+<settings>
+<category label="Complementos">
+	    <setting label="[COLOR dimgrey]Configurações de Complemento:[/COLOR]" type="lsep"/>
+	    <setting label="Verificar Complementos" id="check_addon" type="bool" default="false" />
+        <setting label="Baixar e Instalar Elementum" id="elementum" type="bool" default="false" />
+	    <setting label="Baixar e Instalar Youtube" id="youtube" type="bool" default="false" />
+</category>
+<category label="Canais">
+		<setting label="[COLOR white]Configurações dos Canais:[/COLOR]" type="lsep"/>
+		<setting label="Exibir Canais 4K (Lista M3U)" id="uhdtv" type="bool" default="true" />
+		<setting label="Exibir Canais FHD (Lista M3U)" id="fhdtv" type="bool" default="true" />
+		<setting label="Exibir Canais HD (Lista M3U)" id="hdtv" type="bool" default="true" />
+		<setting label="Exibir Canais SD (Lista M3U)" id="sdtv" type="bool" default="true" />
+		<setting label="(Lista M3U) Exibir Apenas Canais de" id="filtrar" type="enum" values="Desativado|Futebol|Esportes|Filmes e Series|Infantil|Documentario|Aberto|Reality show|Noticias" default="0" />
+</category>
+<category label="Outros">
+	<setting label="[COLOR white]Configurações Gerais:[/COLOR]" type="lsep"/>
+    <setting label="Exibir Mensagem de Boas Vindas" id="mensagem1" type="bool" default="false" />	
+    <setting label="Exibir Mensagem de Status" id="mensagem2" type="bool" default="false" />		
+	<setting label="Exibir Favoritos" id="favoritos" type="bool" default="false" />
+    <setting label="Entre aqui para limpar os favoritos" type="action" action="RunScript(plugin.video.SPIDER, limparFavoritos)"/>	
+	<setting label="Executar Youtube" id="ytbmode" type="enum" values="Interno 1|Interno 2|Externo" default="1" />	
+    <setting label="Use Miniaturas como Fanart" id="use_thumb" type="bool" default="false" />
+</category>
+</settings>
